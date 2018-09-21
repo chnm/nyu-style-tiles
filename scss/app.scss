@@ -121,10 +121,9 @@
     }
 
     .pullquote {
-        margin-left:1rem;
         border-left:20px solid #990000;
         background-color: #eceaea;
-        font-size:2rem;
+        font-size:1.35rem;
         color:#4E4C4C;
         padding: 2rem;
         float:right;
@@ -155,6 +154,15 @@
     .button {
         background:#990000;
         color:#fff;
+    }
+
+    .border {
+        border-left: 5px solid #eceaea;
+        padding-left:1rem;
+
+        a {
+            display:block;
+        }
     }
 
 }
@@ -194,10 +202,9 @@
     }
 
     .pullquote {
-        margin-left:1rem;
         border-left:20px solid #990000;
         background-color: #eceaea;
-        font-size:2rem;
+        font-size:1.5rem;
         color:#4E4C4C;
         padding: 2rem;
         float:right;
@@ -232,5 +239,14 @@
 
     .button:hover {
         background:#4E4C4C;
+    }
+
+    .border {
+        border-left: 5px solid #4E4C4C;
+        padding-left:1rem;
+
+        a {
+            display:block;
+        }
     }
 }
