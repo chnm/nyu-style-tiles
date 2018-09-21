@@ -203,12 +203,20 @@
     }
 
     .pullquote {
-        border-left:20px solid #990000;
+        border-left:10px solid #990000;
         background-color: #eceaea;
         font-size:1.5rem;
         color:#4E4C4C;
         padding: 2rem;
         float:right;
+    }
+
+
+    #colors h2 {
+        display:block;
+        width:100%;
+        border-bottom:2px solid #4E4C4C;
+        margin-bottom:1rem;
     }
 
     .color div:after {
@@ -243,7 +251,7 @@
     }
 
     .border {
-        border-left: 5px solid #4E4C4C;
+        border-left: 2px solid #4E4C4C;
         padding-left:1rem;
 
         a {
