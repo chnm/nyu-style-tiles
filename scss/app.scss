@@ -86,13 +86,14 @@
 }
 
 #classic {
-    li, p, h2, h3, h4, h5 {
-    font-family: 'Montserrat', sans-serif;
+    li, h1, h2, h3, h4, h5 {
+    font-family: 'PT Serif', sans-serif;
     color:#111;
     }
 
-    h1, p {
+    p {
         font-family: 'Merriweather', serif;
+        font-weight: 200;
     }
 
     h2, h3, h4, h5 {
